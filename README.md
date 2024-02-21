@@ -1,2 +1,5 @@
-# Boomboxica
-Boomboxica- a small side project about a online audiodevice marketplace
+A sample site on a online headphones store named boomboxica
+
+all image credit go to adobe stock photos & the headphone zone
+
+-135 (22/2/2024)

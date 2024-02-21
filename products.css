@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    top: 50px;
+    font-family:  Verdana;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-image: linear-gradient(90deg, #f8edda, #f8edda);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline rgb(242, 245, 244) 4px;
+}
+
+#navbar a {
+    transition: 0.7s;
+    padding: 0px 80px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:  Verdana;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+#logo {
+    margin-left: 30px;
+    width: auto;
+    height: 50px;
+}
+
+#login {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    font-family:  Verdana;
+    font-weight: 600;
+    margin-right: 100px;
+    border-radius: 25px 25px;
+
+}
+
+#login:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px rgba(235, 231, 102, 0.592);
+}
+
+aside {
+    width: 15vw;
+    height: 100vh;
+    background-color: #444444;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 40px;
+}
+
+aside ul li {
+    cursor: pointer;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width: 85vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+main div{
+    
+    background: color #000;
+    border: 2px solid #ffffff;
+    margin: 6px 5px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-image: 2px solid #000000;
+    font-family:  Verdana;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+main img{
+    object-fit: contain;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.buttons {
+    margin: auto;
+    height: 30px;
+    width: 150px;
+    background-color: #000000;
+    color: whitesmoke;
+    font-family:  Verdana;
+    font-weight: 600;
+    border-radius: 25px 25px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: #444444;
+    color: #ffffff;
+    box-shadow: 0px 0px 20px #ffffff;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: -173px;
+    color: white;
+    font-family:  Verdana;
+
+    
+}
+
+.footer {
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
